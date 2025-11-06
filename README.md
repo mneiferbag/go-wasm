@@ -4,6 +4,8 @@ Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
 Development example for using [Go](https://go.dev/) with [WebAssembly](https://webassembly.org/).
 
+[![CodeQL Advanced](https://github.com/mneiferbag/go-wasm/actions/workflows/codeql.yml/badge.svg)](https://github.com/mneiferbag/go-wasm/actions/workflows/codeql.yml)
+
 Execute the following steps to run the example.
 
 1. `./cp_wasm_exec.sh` (only once)
@@ -16,4 +18,6 @@ Execute the following steps to run the example.
 
 ## Tasks
 
+* [ ] Separate Go cmd and HTML page
 * [ ] Replace Python HTTP server with Go HTTP server
+* [x] Add CodeQL workflow
