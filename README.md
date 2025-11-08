@@ -8,9 +8,9 @@ Development example for using [Go](https://go.dev/) with [WebAssembly](https://w
 
 Execute the following steps to run the example.
 
-1. `./cp_wasm_exec.sh` (only once)
-2. `./go_build.sh`
-3. `./http_server.sh`
+1. `./bin/cp_wasm_exec.sh` (only once)
+2. `./bin/go_build.sh`
+3. `./bin/http_server.sh`
 
 ## Links
 
@@ -18,6 +18,6 @@ Execute the following steps to run the example.
 
 ## Tasks
 
-* [ ] Separate Go cmd and HTML page
 * [ ] Replace Python HTTP server with Go HTTP server
+* [x] Separate directories for scripts and HTML page
 * [x] Add CodeQL workflow

@@ -32,5 +32,5 @@ go.work.sum
 # .idea/
 # .vscode/
 
-# Go WebAssembly / JS script
+# Go WebAssembly / JavaScript support file
 wasm_exec.js
